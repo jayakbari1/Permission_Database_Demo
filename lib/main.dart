@@ -4,7 +4,7 @@ import 'package:permission_handler_demo/routes/navigator_service.dart';
 import 'package:permission_handler_demo/routes/route_generator.dart';
 import 'package:permission_handler_demo/secure_storage/secure_storage.dart';
 import 'package:permission_handler_demo/shared_preference/shared_pref.dart';
-import 'package:permission_handler_demo/store/custom_file_picker_store.dart';
+import 'package:permission_handler_demo/store/custome_file_picker_store/custom_file_picker_store.dart';
 import 'package:permission_handler_demo/store/shared_pref_store/registration_store.dart';
 import 'package:provider/provider.dart';
 

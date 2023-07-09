@@ -2,7 +2,17 @@
 
 In this project explore permissio_handler, Shared_preference, and Secure storage packages demo. Try to cover different scenarios. Permission Handler dependencies are added only for iOS. In this Demo, I created one Custom file picker demo using the photo manager package. 
 
-Below Dependencies are used in this project:
+# In Permission_Handler try to different test cases which disucss below
+
+1. What if one permission dialog is open and system request another permission
+2. What if Permission Dialog is open naviagte to another page
+3. Which are the dangerous permission for iOS
+4. How we can customize permission dialog string 
+5. How to create custome permission dialog
+
+
+
+# Below Dependencies are used in this project:
 
 1.  cupertino_icons: ^1.0.2
 2.  permission_handler: ^10.3.0
