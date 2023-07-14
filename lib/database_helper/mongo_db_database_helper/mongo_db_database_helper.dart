@@ -14,10 +14,10 @@ class MongodbDatabaseHelper {
   static Db? database;
   static DbCollection? userCollection;
 
-  final USER_COLLECTION = 'users';
+  final USER_COLLECTION = 'YOUR_COLECTION_NAME';
 
   final connectString =
-      'mongodb+srv://sage:716giCKIZg3FoVji@mongodbcluster.ml6rrnt.mongodb.net/?retryWrites=true&w=majority';
+      'YOUR_CONNECTION_URL';
 
   // ignore: inference_failure_on_function_return_type
   Future<void> connectToMongo() async {
