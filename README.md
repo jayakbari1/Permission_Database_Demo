@@ -21,6 +21,12 @@ In this Custome file picker I create custom file picker using photo manager and 
 2. Add CRUD operation in every demo
 
 
+# About Firebase 
+
+1. In Firebase demo I added CRUD operation of user using cloud fire store
+2. Did practical of authentication using email, google and phone number
+
+
 # Below Dependencies are used in this project:
 
 1.  cupertino_icons: ^1.0.2
@@ -43,3 +49,8 @@ In this Custome file picker I create custom file picker using photo manager and 
 18.  sqlite3_flutter_libs: ^0.5.15
 19.  drift_db_viewer: ^2.0.0
 20.  mongo_dart: ^0.9.1
+21. firebase_core: ^2.14.0
+22.  firebase_auth: ^4.6.3
+23.  google_sign_in: ^6.1.4
+24.  pinput: ^2.2.12
+25.  cloud_firestore: ^4.8.3
