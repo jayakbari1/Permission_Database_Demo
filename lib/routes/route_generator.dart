@@ -20,11 +20,6 @@ import 'package:permission_handler_demo/pages/sqf_lite_demo/sqf_lite_page.dart';
 import 'package:permission_handler_demo/routes/routes.dart';
 import 'package:permission_handler_demo/store/drift_store/drift_database_store.dart';
 import 'package:permission_handler_demo/store/file_picker_store/file_picker_store.dart';
-<<<<<<< HEAD
-=======
-import 'package:permission_handler_demo/store/firebase_store/firebase_sign_up_store.dart';
->>>>>>> 6c26fb90c32c3a108b2b847c4c19a4618dd60258
-import 'package:permission_handler_demo/store/mongo_db_database_store/mongo_db_database_store.dart';
 import 'package:permission_handler_demo/store/open_app_setting_store.dart';
 import 'package:permission_handler_demo/store/permission_handler_store/all_permission_store.dart';
 import 'package:permission_handler_demo/store/secure_storage_store/secure_storage_store.dart';
@@ -109,15 +104,7 @@ class RouteGenerator {
       case Routes.mongodbPage:
         return MaterialPageRoute(
           builder: (_) =>
-              const MongodbDatabasePage().withProvider(MongodbDatabaseStore()),
-<<<<<<< HEAD
-=======
-        );
-      case Routes.firebasePage:
-        return MaterialPageRoute(
-          builder: (_) =>
-              const FirebasePage().withProvider(FirebaseSignUpStore()),
->>>>>>> 6c26fb90c32c3a108b2b847c4c19a4618dd60258
+              const MongodbDatabasePage().withProvider(SqfLiteStore()),
         );
       default:
         return errorRoute();
