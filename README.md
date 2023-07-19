@@ -13,12 +13,16 @@ In this project explore permissio_handler, Shared_preference, and Secure storage
 
 # About Custom File Picker
 
-In this Custome file picker I create custom file picker using photo manager and try to add pagination. 
+1. Create Custome file picker using photo_manager liabrary
+2. done pagination
+ 
 
 # Database Section
 
-1. In database I explore different databases like sqflite, frigt, mongodb
+1. In database I explore different databases like sqflite, drift, mongodb
 2. Add CRUD operation in every demo
+3. Try to do migration in sqf_lite demo
+   
 
 
 # About Firebase 
